@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<title>Sign Up</title>
+</head>
+<body class="bg-dark">
+    <section class=" p-2 m-2 align-items-center justify-content-center">
+        <div class="container d-flex justify-content-center">
+            <img src="static/logos/logo-no-background-white-letters2.png" alt="logo here" class="my-4" width="300" height="338">
+        </div>
+    
+        <form class="row g-3 m-3 p-3 border rounded text-light">
+            <div class="container py-2 text-center">
+            <h3>Register</h3>
+        </div>
+            <div class="col-md-6">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inoutPassword">
+            </div>
+            <div class="col-lg-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="123 Fake Street">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputcity">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>Utah</option>
+                    <option>California</option>
+                    <option>Nevada</option>
+                    <option>Wyoming</option>
+                    <option>Idaho</option>
+                </select>
+            </div>
+            <div class="col-2">
+                <label for="inputZip" class="form-label">Zip Code</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="container mx-0 my-3 px-2">
+                <div class="row col-md-3 ms-md-auto my-2 text-end">
+                    <fs class="5">Already a Member?</fs>
+                </div>
+                <div class="row">
+                    <div class="col-auto me-auto">
+                        <button type="submit" class="w-100 btn btn-warning">Register</button>
+                    </div>
+                    <div class="col-auto">
+                        <a href="member_login.html" class="w-10 btn btn-warning">Sign In</a>
+                    </div>
+                </div>
+            </div>   
+        </form>
+    </section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
